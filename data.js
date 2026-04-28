@@ -1,7 +1,7 @@
 const portfolioData = {
   profile: {
     name: "Syed Ahmed Wasi",
-    title: "Full Stack Developer",
+    title: "Aspiring Cybersecurity Analyst | Cloud & Java",
     location: "Bhopal, India",
     contact: {
       email: "ahmedwasi4407@gmail.com",
