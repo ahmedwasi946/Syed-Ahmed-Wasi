@@ -249,10 +249,9 @@ function initAbout() {
   }
 
   const highlights = [
-    { icon: 'cloud', label: 'Cloud & DevOps', desc: 'AWS, Docker, CI/CD' },
-    { icon: 'users', label: 'Community Leader', desc: 'AWS Cloud Club Captain' },
-    { icon: 'star', label: 'Open Source', desc: 'GSSoC \'24 Contributor' }
-  ];
+    { icon: 'cloud', label: 'Cloud ', desc: 'AWS, Azure' },
+    { icon: 'users', label: 'Community Leader', desc: 'MLSA Cloud Lead' }
+    ];
 
   let html = '';
 
@@ -642,7 +641,7 @@ function initContact() {
               <span style="font-size: 0.75rem; color: hsl(var(--primary)); font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;">Open to work</span>
             </div>
             <p style="color: hsl(var(--foreground)); font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 1.125rem; margin-bottom: 0.25rem;">Looking for internships & full-time roles</p>
-            <p style="font-size: 0.875rem; color: hsl(var(--muted-foreground));">Full-Stack Development · React · Node.js · Next.js</p>
+            <p style="font-size: 0.875rem; color: hsl(var(--muted-foreground));">s</p>
           </div>
           <a href="mailto:${profile.email}" class="btn-primary" style="align-self: flex-start;">
             Send email
@@ -675,7 +674,7 @@ function initContact() {
   html += `
     <div style="padding-top: 2rem; border-top: 1px solid hsl(var(--border) / 0.4); display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 1rem;">
       <p style="font-size: 0.75rem; color: hsl(var(--muted-foreground) / 0.5); text-align: center;">
-        © ${new Date().getFullYear()} ${profile?.name || 'Developer'} · Built with HTML, CSS & JavaScript
+        © ${new Date().getFullYear()} ${profile?.name || 'Developer'} · 
       </p>
       <div style="display: flex; align-items: center; gap: 1.25rem;">
         ${profile?.github ? `<a href="${profile.github}" target="_blank" rel="noopener noreferrer" style="color: hsl(var(--muted-foreground) / 0.5); transition: color 0.3s ease;">
