@@ -27,7 +27,7 @@ const portfolioData = {
     Languages: ["Java", "C++", "C"],
     Frameworks: ["Spring Boot"],
     Databases: ["MySQL"],
-    "Cloud / DevOps": ["Azure"],
+    "Cloud / DevOps": ["Azure", "AWS" ],
     Tools: ["Git", "GitHub"],
     "Soft Skills": ["Event Management"]
   },
