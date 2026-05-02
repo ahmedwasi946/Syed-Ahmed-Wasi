@@ -641,7 +641,7 @@ function initContact() {
               <span style="font-size: 0.75rem; color: hsl(var(--primary)); font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;">Open to work</span>
             </div>
             <p style="color: hsl(var(--foreground)); font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 1.125rem; margin-bottom: 0.25rem;">Looking for internships & full-time roles</p>
-            <p style="font-size: 0.875rem; color: hsl(var(--muted-foreground));">s</p>
+            <p style="font-size: 0.875rem; color: hsl(var(--muted-foreground));"></p>
           </div>
           <a href="mailto:${profile.email}" class="btn-primary" style="align-self: flex-start;">
             Send email
