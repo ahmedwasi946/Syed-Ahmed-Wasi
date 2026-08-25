@@ -1,66 +1,167 @@
+
 const portfolioData = {
   profile: {
     name: "Syed Ahmed Wasi",
-    title: "Full Stack Developer",
-    headline: "Cloud & Cybersecurity Enthusiast | MLSA Cloud Lead @ SISTec | Event & Training Manager @ Vyuh Community",
-    tagline: "Securing the Cloud",
-    bio: "Full Stack Developer with a focus on Cloud Computing and Cybersecurity.",
-    bioExtended: "Cloud & Cybersecurity Enthusiast and MLSA Cloud Lead at SISTec. I specialize in building full-stack applications with a strong emphasis on security and cloud-native architectures. Currently managing events and training at Vyuh Community.",
+
+    title: "Java Backend Developer | Cloud & Cybersecurity Enthusiast",
+
+    headline:
+      "Java Backend Developer | Cloud & Cybersecurity Enthusiast | MLSA Cloud Lead @ SISTec | Event & Training Manager @ Vyuh Community",
+
+    tagline: "Building Secure & Cloud-Ready Applications",
+
+    bio:
+      "Computer Science student specializing in Cyber Security, focused on Java backend development, cloud computing, and secure application design.",
+
+    bioExtended:
+      "MLSA Cloud Lead at SISTec and Event & Training Manager at Vyuh Community. I build backend applications using Java and Spring Boot while exploring cloud technologies, cybersecurity, AI, and secure cloud-native architectures.",
+
     location: "Bhopal, India",
+
     phone: "",
+
     email: "[ahmedwasi4407@gmail.com](mailto:ahmedwasi4407@gmail.com)",
-    linkedin: "[https://www.linkedin.com/in/syed-ahmed-wasi-244159402](https://www.linkedin.com/in/syed-ahmed-wasi-244159402)",
-    github: "[https://github.com/ahmedwasi946](https://github.com/ahmedwasi946)",
+
+    linkedin:
+      "[https://www.linkedin.com/in/syed-ahmed-wasi-244159402](https://www.linkedin.com/in/syed-ahmed-wasi-244159402)",
+
+    github: "https://github.com/ahmedwasi946",
+
     githubHandle: "Syed Ahmed Wasi",
+
     linkedinHandle: "Syed Ahmed Wasi",
-    leetcode: "[https://leetcode.com/u/MA1rzlmbxH/](https://leetcode.com/u/MA1rzlmbxH/)",
+
+    leetcode:
+      "[https://leetcode.com/u/MA1rzlmbxH/](https://leetcode.com/u/MA1rzlmbxH/)",
+
     gfg: "",
+
     codechef: ""
   },
+
   education: {
     institution: "Sagar Institute of Science and Technology",
     degree: "B.Tech in Computer Science (Specialization: Cyber Security)",
     period: "2025 - 2029",
     cgpa: ""
   },
+
   skills: {
-    Languages: ["Java", "C++", "C"],
-    Frameworks: ["Spring Boot"],
-    Databases: ["MySQL"],
-    "Cloud / DevOps": ["Azure", "AWS" ],
-    Tools: ["GitHub" ],
-    "Soft Skills": ["Event Management"]
+    Languages: [
+      "Java",
+      "C++",
+      "C"
+    ],
+
+    Frameworks: [
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Data JPA"
+    ],
+
+    Databases: [
+      "MySQL"
+    ],
+
+    "Cloud / DevOps": [
+      "Microsoft Azure",
+      "AWS",
+      "Git",
+      "GitHub"
+    ],
+
+    Tools: [
+      "Postman",
+      "Maven"
+    ],
+
+    Cybersecurity: [
+      "Cloud Security",
+      "Web Security",
+      "Ethical Hacking"
+    ],
+
+    "Soft Skills": [
+      "Event Management",
+      "Technical Training",
+      "Community Building"
+    ]
   },
+
   experience: [
     {
       role: "MLSA Cloud Lead",
       company: "Microsoft Learn Student Ambassadors (SISTec)",
       period: "Present",
       location: "Bhopal",
-      description: "Leading cloud-related initiatives and training sessions for students.",
+
+      description:
+        "Leading cloud-focused learning initiatives and technical activities for students.",
+
       highlights: [
-        "Specializing in Azure and Cloud Computing.",
-        "Organizing workshops to bridge the gap between academia and industry cloud standards."
+        "Exploring Azure and cloud computing while helping students develop practical cloud skills.",
+        "Organizing technical learning activities and workshops around cloud technologies.",
+        "Helping students connect academic learning with industry-relevant cloud skills."
       ]
     },
+
     {
       role: "Event & Training Manager",
       company: "Vyuh Community",
       period: "Present",
       location: "Bhopal",
-      description: "Managing technical events and training programs for the community.",
+
+      description:
+        "Managing technical events, training activities, and educational outreach.",
+
       highlights: [
-        "Overseeing community growth and educational outreach."
-       ],
-      link: "[View Community](https://github.com/ahmedwasi946)"
+        "Organizing technical events and training programs for students.",
+        "Contributing to community growth through technical learning and engagement.",
+        "Supporting hands-on learning through workshops and technical activities."
+      ],
+
+      link: "https://github.com/ahmedwasi946"
     }
   ],
-  projects: [], // Add your projects here following the same format as Nitin's
+
+  projects: [
+    {
+      title: "Riding Booking System",
+      subtitle: "Backend Development",
+
+      description:
+        "A backend system for managing ride-booking operations, built to strengthen my understanding of real-world backend architecture, REST APIs, database management, and application design.",
+
+      highlights: [
+        "Developed REST APIs using Java and Spring Boot.",
+        "Implemented database operations using Spring Data JPA and MySQL.",
+        "Designed backend components for ride-booking functionality.",
+        "Tested and validated APIs using Postman.",
+        "Used Git and GitHub for version control."
+      ],
+
+      tech: [
+        "Java",
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Data JPA",
+        "MySQL",
+        "REST API",
+        "Postman",
+        "Git",
+        "GitHub"
+      ],
+
+      github: ""
+    }
+  ],
+
   certifications: [
-    "Advent of Cyber 2025 (TryHackMe)",
+    "Advent of Cyber 2025 — TryHackMe",
     "C Essentials 1 & 2",
     "Deloitte Cyber Job Simulation"
   ],
+
   navLinks: [
     { label: "About", href: "#about" },
     { label: "Skills", href: "#skills" },
@@ -69,5 +170,8 @@ const portfolioData = {
     { label: "Contact", href: "#contact" }
   ]
 };
-// Test log to verify it runs
-console.log("Portfolio data loaded successfully for:", portfolioData.profile.name);
+
+console.log(
+  "Portfolio data loaded successfully for:",
+  portfolioData.profile.name
+);
